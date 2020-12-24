@@ -1,0 +1,288 @@
+/*Home
+#home
+    background-color: #87509c
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    min-height: 596px
+    width: 100%
+    .btn
+        background-color: #eb7d4b
+        color: #ffffff
+        font-size: 18px
+        font-weight: 700
+        &:hover
+            background-color: #b1420f
+            transition: background-color 0.5s ease
+
+/* About
+#about
+    background-color: #17c2a4
+    .lg-title
+        color: #ffffff
+    .subtitle
+        color: #ffffff
+    .md-title
+        color: #ffffff
+        text-transform: uppercase
+        margin-top: 30px
+        margin-bottom: 27px
+    .description
+        text-align: center
+        color: #ffffff
+        padding-left: 25px
+        padding-right: 25px
+    .flex-container
+        margin-top: 78px
+    .flex-element
+        img
+            height: 100px
+            margin-bottom: 32px
+
+/* Team    
+#team
+    background-color: #e7f1f8
+    .lg-title
+        color: #3c4761
+    .subtitle
+        color: #3c4761
+    .flex-container
+        margin-top: 78px
+    .portrait
+        border-radius: 50%
+        width: 200px
+        height: 200px
+    .md-title
+        color: #27283d
+        text-transform: uppercase
+        margin-top: 41px
+        margin-bottom: 15px
+    .xs-title
+        color: #30bae7
+        margin-bottom: 28px
+    .description
+        color: #3c4761
+        text-align: center
+        padding-left: 30px
+        padding-right: 30px
+    .social-icons
+        padding-left: 30px
+        padding-right: 30px
+        a
+            margin-left: 5px
+            margin-right: 5px
+    svg
+        width: 24px
+        height: 24px
+        path
+            fill: #bdd1df
+        &:hover
+            path
+                fill: #ff4030
+
+/* Skills
+#skills
+    background-color: #ffffff
+    .lg-title
+        color: #3c4761
+    .subtitle
+        color: #3c4761
+    .md-title
+        color: #3c4761
+        margin-top: 35px
+    .flex-container
+        margin-top: 78px
+
+/* Work
+#work
+    background-color: #ffdd99
+    text-align: center
+    .lg-title
+        color: #393939
+    .subtitle
+        color: #393939
+    .sm-title
+        color: #393939
+        text-transform: uppercase
+    .btn
+        color: #ffffff
+        background-color: #17c2a4
+        font-size: 18px
+        font-weight: 700
+        &:hover
+            background-color: #148a74
+            transition: background-color 0.5s ease
+.button-group
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    width: 33%
+    margin: 42px auto 77px auto
+    .button
+        background-color: rgba(0, 0, 0, .2)
+        border: 0
+        outline: 0
+        padding: 15px 24px
+        margin: 0 10px
+        text-transform: uppercase
+        color: #393939
+        cursor: pointer
+        &.active
+            background-color: #ffffff
+        &:hover, &:active
+            background-color: rgba(225,225,225,.2)
+.grid
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    flex-wrap: wrap
+    .element-item
+        flex-grow: 1
+        text-align: center
+        max-width: 50%
+        .sm-title
+            margin-bottom: 64px
+            margin-top: 32px
+
+/* Blog                
+#blog
+    background-color: #d74680
+    text-align: center
+    padding-bottom: 45px
+    .lg-title
+        color: #ffffff
+    .subtitle
+        color: #ffffff
+    .md-title
+        color: #ffffff
+        margin-top: 28px
+        margin-bottom: 9px
+        text-align: left
+    img
+        border-radius: 50%
+        width: 96px
+        height: 96px
+    .comment
+        color: #ffffff
+        font-style: italic
+        font-size: 21px
+        line-height: 30px
+        text-align: left
+    .whois
+        color: #ffdd99
+        font-size: 18px
+        font-weight: 400
+        padding-bottom: 75px
+        text-align: left
+
+.grid-container
+    display: grid
+    grid-template-columns: 0.7fr 1.3fr 0.7fr 1.3fr
+    grid-template-rows: 1fr 1fr 1fr 1fr
+    gap: 0px 0px
+    grid-template-areas: "img1 text1 img2 text2" ". text1 . text2" "img3 text3 img4 text4" ". text3 . text4"
+    margin-top: 80px
+
+.img1
+    grid-area: img1
+
+.img2
+    grid-area: img2
+
+.text1
+    grid-area: text1
+
+.text2
+    grid-area: text2
+
+.img3
+    grid-area: img3
+
+.text3
+    grid-area: text3
+
+.img4
+    grid-area: img4
+
+.text4
+    grid-area: text4
+
+/* Contact
+#contact
+    background-color: #3c5499
+    text-align: center
+    .lg-title
+        color: #ffffff
+    .subtitle
+        color: #ffffff
+        width: 100%
+    .btn
+        background-color: #30bae7
+        color: #ffffff
+        font-size: 18px
+        font-weight: 700
+        &:hover
+            background-color: #0e91bd
+            transition: background-color 0.5s ease
+
+.contact-form
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    width: 860px
+    justify-content: space-between
+    margin: 75px auto 0
+    text-align: center
+    input
+        width: 50%
+        max-width: 414px
+        height: 56px
+        background-color: #273a71
+        border: 0
+        outline: 0
+        padding-left: 20px
+    textarea
+        width: 100%
+        height: 200px
+        max-width: 860px
+        margin-top: 27px
+        margin-bottom: 59px
+        background-color: #273a71
+        outline: 0
+        border: 0
+        padding-left: 20px
+        padding-top: 20px
+    input, textarea
+        text-align: left
+        &::placeholder
+            color: #ffffff
+            font-size: 18px
+            font-weight: 400
+        &:focus
+            border: 1px solid #ffffff
+            &::placeholder
+                opacity: 0.4
+
+/* Footer
+.footer
+    width: 100%
+    padding-top: 50px
+    padding-bottom: 50px
+    background-color: #344b8e
+
+.social-links
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    margin: 0 auto
+    width: 66%
+
+.footer-link
+    color: #ffffff
+    font-size: 24px
+    font-weight: 700
+    &:hover
+        color: #30bae7
