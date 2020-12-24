@@ -1,20 +1,3 @@
-// Isotope filter
-$(document).ready(function () {     
-  $('.grid').isotope(function () {
-    itemSelector: '.element-item'
-  });
-  $('.button').click(function () {
-    $('.button').removeClass('active');
-    $(this).addClass('active');
-
-    var selector = $(this).attr('data-filter');
-    $('.grid').isotope({
-      filter: selector
-    })
-    return false;
-  });
-})
-
 'use strict';
 // Active menu item on scroll
 const links = document.querySelectorAll('.menu-item');
