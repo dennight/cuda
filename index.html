@@ -297,26 +297,9 @@
         </ul>
     </footer>
 
-    <script async src="js/jquery-3.5.1.min.js"></script>
-    <script async src="js/isotope.pkgd.min.js"></script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $('.grid').isotope(function () {
-                itemSelector: '.element-item'
-            });
-            $('.button').click(function () {
-                $('.button').removeClass('active');
-                $(this).addClass('active');
-
-                var selector = $(this).attr('data-filter');
-                $('.grid').isotope({
-                    filter: selector
-                })
-                return false;
-            });
-        })
-    </script>
-    <script async src="js/scripts.js"></script>
+    <script defer src="js/jquery-3.5.1.min.js"></script>
+    <script defer src="js/isotope.pkgd.min.js"></script>
+    <script defer src="js/scripts.js"></script>
 </body>
 
 </html>
